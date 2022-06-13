@@ -1,0 +1,42 @@
+.nav-list{
+    display:flex;
+    flex-direction: row;
+    flex:1,0,auto;
+    background-color:red;
+    padding:20px;
+    justify-content: flex-end;
+    
+   
+    
+}
+
+.nav-list a{
+    color: white;
+    margin-right:10px;
+    text-decoration:none;
+    border-right:solid;
+    padding-right:5px;
+    font-size:25px;
+    font-family:Audiowide;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+.my-name{
+    background-color:red;
+    color:white;
+    font-size:3em;
+    font-family:Audiowide;
+    border-bottom:solid;
+    border-width:10px;
+    padding-left:20px;
+
+}
+header{
+    background-color:red;
+}
+.nav-list li:last-of-type a{
+    border-right:none;
+}
